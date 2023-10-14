@@ -1,3 +1,11 @@
+function moveGame () {
+    if (input.buttonIsPressed(Button.A)) {
+        TobbieII.forward()
+    }
+    if (input.buttonIsPressed(Button.B)) {
+        TobbieII.backward()
+    }
+}
 input.onButtonPressed(Button.A, function () {
     if (true) {
         scrollPageNumber = scrollPageNumber + 1
